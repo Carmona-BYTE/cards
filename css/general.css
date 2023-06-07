@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* HTML TAGS */
+a {
+  text-decoration: none;
+
+  color: white;
+
+  cursor: default;
+}
+
+/* HEADER */
+header {
+  width: 80%;
+  height: 89px;
+
+  display: flex;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  background: 0% 0% no-repeat padding-box padding-box rgba(26, 36, 75, 0.807);
+  backdrop-filter: blur(12px);
+
+  transition-duration: 500ms;
+
+  z-index: 2;
+}
+/* BODY */
+main {
+  width: 100%;
+
+  margin: 0;
+
+  z-index: 1;
+}
